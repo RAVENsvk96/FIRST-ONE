@@ -1,0 +1,60 @@
+body {
+    background: url("/image/background.jpg") repeat 0 0;
+    background-size: 100%;
+    color:rgb(0, 174, 255);
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px rgb(127, 240, 255);
+        }
+        footer {
+    text-align: end;
+    font-style: normal;
+        }
+
+        /* Navigation header menu */
+        .navbar {
+    background-color: #332e36;
+    position: relative;
+    z-index: 999;
+    text-shadow: 2px 2px #8906e0;
+    top: 0;
+    width: 100%;
+        }
+
+        .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #8906e0;
+        }
+
+        .navbar li {
+    display: inline-block;
+        }
+
+        .navbar li a {
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+        }
+
+        /* Style the dropdown menu */
+        .navbar ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+        }
+
+        .navbar ul ul li {
+    display: block;
+        }
+
+        .navbar li:hover ul {
+    display: block;
+        }
+
+        /* Change the background color of dropdown links on hover */
+        .navbar ul ul li a:hover {
+    background-color: rgb(219, 127, 255);
+        }

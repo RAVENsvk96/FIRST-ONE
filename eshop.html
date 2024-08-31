@@ -1,91 +1,77 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Eshop</title>
-        <style>
-            body {
-        background: url("https://i.imgur.com/eFMt0TZ.jpeg") repeat 0 0;
-        background-size: 100%;
-        color:rgb(0, 195, 255);
-        text-align: center;
-        font-style: italic;
-        }
-            footer {
-        text-align: end;
-        font-style: normal;
-                }
-
-        /* Navigation header menu */
-        .navbar {
-        background-color: #332e36;
-        position: relative;
-        z-index: 999;
-        text-shadow: 2px 2px #8906e0;
-        }
-
-        .navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background: #8906e0;
-        }
-
-        .navbar li {
-        display: inline-block;
-        }
-
-        .navbar li a {
-        color: white;
-        display: block;
-        padding: 10px 20px;
-        text-decoration: none;
-        }
-
-        /* Style the dropdown menu */
-        .navbar ul ul {
-        position: absolute;
-        top: 100%;
-        display: none;
-        }
-
-        .navbar ul ul li {
-        display: block;
-        }
-
-        .navbar li:hover ul {
-        display: block;
-                }
-
-        /* Change the background color of dropdown links on hover */
-        .navbar ul ul li a:hover {
-        background-color: rgb(219, 127, 255);
-        }
-        </style>
-    </head>
-    <body>
-        <nav class="navbar">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eshop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">List of ideas</a>
             <ul>
-                <li><a href="C:\Users\szeli\Desktop\PROJECT\HTML FILES\1.MAIN PAGE.html">Home</a></li>
-                <li>
-                    <a href="#">List of ideas</a>
-                    <ul>
-                        <li><a href="C:\Users\szeli\Desktop\PROJECT\HTML FILES\2.SHOP.html">Ukrainian shop or bakery</a></li>
-                        <li><a href="C:\Users\szeli\Desktop\PROJECT\HTML FILES\3.CAFE.html">Thematic cafe</a></li>
-                        <li><a href="C:\Users\szeli\Desktop\PROJECT\HTML FILES\4.CHILD ENTERTAINMENT.html">Children's entertainment</a></li>
-                        <li><a href="C:\Users\szeli\Desktop\PROJECT\HTML FILES\5.SELF PRODUCE.html">Self grown produce - Flowers, Fruits and Vegetables</a></li>
-                        <li><a href="C:\Users\szeli\Desktop\PROJECT\HTML FILES\6.ESHOP.html">Eshop</a></li>
-                        <li><a href="C:\Users\szeli\Desktop\PROJECT\HTML FILES\7.SLIME.SHRIPM.CRAYFISH FARM.html">Crayfish farm</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Contact</a></li>
+              <li>
+                <a href="/shop.html">Ukrainian shop or bakery</a>
+              </li>
+              <li>
+                <a href="/cafe.html">Thematic cafe</a>
+              </li>
+              <li>
+                <a href="/child-entertainment.html">Children's entertainment</a>
+              </li>
+              <li>
+                <a href="/self-produce.html"
+                  >Self grown produce - Flowers, Fruits and Vegetables</a
+                >
+              </li>
+              <li>
+                <a href="/eshop.html">Eshop</a>
+              </li>
+              <li>
+                <a href="/shrimp-farm.html">Crayfish farm</a>
+              </li>
             </ul>
-        </nav>
-            <h1>Eshop</h1><br>
-            <p style="color: black;">Selling some stuff on internet for expamle: Cosmetics - visible and invisible<br> Lavander suff - cosmetics, candles, incense stuff, etc.., Handmade stuff - soap, christmass decorations, etc..</p>
-            <footer>
-                <p style="position: absolute; bottom: 0; right: 0; text-shadow: 2px 2px rgb(127, 240, 255); color:rgb(0, 174, 255);"> Made with❤️in Nitra © 2024 by RAVEN 
-                    <a href="mailto:s.zeliska96@gmail.com">s.zeliska96@gmail.com</a>
-                </p>
-            </footer>
-    </body>
+          </li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Eshop</h1>
+      <br />
+      <p style="color: black">
+        Selling some stuff on internet for expamle: Cosmetics - visible and
+        invisible<br />
+        Lavander suff - cosmetics, candles, incense stuff, etc.., Handmade stuff
+        - soap, christmass decorations, etc..
+      </p>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">
+        Made with❤️in Nitra © 2024 by RAVEN
+        <a href="mailto:s.zeliska96@gmail.com">s.zeliska96@gmail.com</a>
+      </p>
+      <div id="Contact">
+        <p class="contact">
+          <a href="#">Facebook</a>
+          <a href="#">X</a>
+          <a href="#">Instagram</a>
+          <a href="#">Youtube</a>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

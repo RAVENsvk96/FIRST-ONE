@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif, sans-serif;
 
   background-color: #ffffff;
   font-size: 16px;
@@ -82,14 +82,23 @@ a {
 /* FOOTER */
 
 .footer {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-right: 15px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  margin-right: 20px;
   text-align: end;
   font-style: normal;
+  font-size: medium;
 }
 
 .footer-text {
   text-shadow: 2px 2px rgb(127, 240, 255);
   color: rgb(0, 174, 255);
+}
+.contact {
+  margin-top: -15px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  text-align: left;
+  font-style: normal;
+  font-size: medium;
 }
